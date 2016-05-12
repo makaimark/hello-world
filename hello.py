@@ -1,6 +1,6 @@
 import sys
 
-	def main():
+def main():
 	
 	name = input ( "Your name :" )
 	
