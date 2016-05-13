@@ -1,12 +1,12 @@
 import sys
 
 def main():
+	if len(sys.argv) == 2:
+		name = sys.argv[1]
+	else :
+		name = "world"
 	
-	name = input ( "Your name :" )
-	
-	if len(name) == 0 :
-		print ( " Hello world " )
-	else:
-		print ( " Hello " + name )
+	print ( " Hello " + name )
 
 main()
+
